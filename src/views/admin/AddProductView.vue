@@ -68,7 +68,7 @@ const submitHandler = async (data) => {
             <p class="font-black">Imagen del producto:</p>
             <img
               :src="imageIsUploaded"
-              alt="Imagen del producto"
+              :alt="'Imagen de ' + formData.name"
               class="w-32"
             />
           </div>
@@ -104,6 +104,7 @@ const submitHandler = async (data) => {
             :validation-messages="{
               required: 'El stock del producto es obligatorio',
             }"
+            min="0"
             v-model.number="formData.stock"
           />
         </FormKit>
