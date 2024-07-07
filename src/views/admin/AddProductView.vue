@@ -31,7 +31,7 @@ const submitHandler = async (data) => {
 <template>
   <div>
     <Link to="products">Volver</Link>
-    <h1 class="text-4xl font-black my-10">Nuevo Producto</h1>
+    <h2 class="text-4xl font-black my-10">Nuevo Producto</h2>
     <div class="flex justify-center bg-white shadow">
       <div class="p-12 w-full 2xl:w-2/4">
         <FormKit
