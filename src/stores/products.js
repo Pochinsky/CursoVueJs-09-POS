@@ -71,9 +71,9 @@ export const useProductsStore = defineStore("products", () => {
   });
 
   const productsFiltered = computed(() => {
-    return productsCollection.value.filter(
-      (product) => product.category === categoriesSelected.value
-    );
+    return productsCollection.value
+      .filter((product) => product.category === categoriesSelected.value)
+      .filter((product) => product.stock > 0);
   });
 
   return {
