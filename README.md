@@ -1,29 +1,3 @@
-# cursovuejs-09-pos
+# POS - Point of Sale
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+El Punto de Venta es el segundo proyecto Full Stack, en este añadiremos una mayor cantidad de funciones, colecciones y dependencias para sacar máximo provecho de firebase, agregaremos diferentes Stores, más páginas, diferentes áreas, un panel de administración y mucho más.
